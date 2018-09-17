@@ -17,6 +17,6 @@ docker push owned/multi-worker:$SHA
 #  apply k8s
 kubectl apply -f k8s
 kubectl set image deployments/server-deployment server=owned/multi-server:$SHA
-kubectl set image deployments/client-deployment server=owned/multi-client:$SHA
-kubectl set image deployments/worker-deployment server=owned/multi-worker:$SHA
+kubectl set image deployments/client-deployment client=owned/multi-client:$SHA
+kubectl set image deployments/worker-deployment worker=owned/multi-worker:$SHA
 
