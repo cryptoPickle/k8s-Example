@@ -13,8 +13,8 @@ spec:
     - www.recursive.online
   acme:
     config:
-      -http01:
-        ingressClass: nginx
-      domains:
-        - recursive.online
-        - www.recursive.online
+      - http01:
+          ingressClass: nginx
+        domains:
+          - recursive.online
+          - www.recursive.online
