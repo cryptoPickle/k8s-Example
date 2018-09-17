@@ -7,7 +7,7 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: recursive.online
+  commonName: cryptopickle.online
   dnsNames:
     - recursive.online
     - www.recursive.online
